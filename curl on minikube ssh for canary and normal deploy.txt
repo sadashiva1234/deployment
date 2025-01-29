@@ -1,0 +1,1 @@
+for i in $(seq 1 10); do curl -s --resolve echo.prod.mydomain.com:80:192.168.49.2(minikube ip) echo.prod.mydomain.com  | grep "Hostname"; done

@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: echoapp
-        image: anvesh35/echo-pod-name:v1.0.0
+        image: nginx
         ports:
         - containerPort: 80
